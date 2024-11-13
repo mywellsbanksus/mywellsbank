@@ -1,0 +1,583 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"  class="no-js" lang="en"> 
+
+<!-- Mirrored from www.wellsfargo.com/privacy-security/fraud/responsible-disclosure-program/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 28 Oct 2024 22:45:38 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+   <link rel="preconnect" href="https://www17.wellsfargomedia.com/">
+<link rel="dns-prefetch" href="https://www17.wellsfargomedia.com/">
+<link rel="preconnect" href="https://c1.wfinterface.com/">
+<link rel="dns-prefetch" href="https://c1.wfinterface.com/">
+<link rel="preconnect" href="https://static.wellsfargo.com/">
+<link rel="dns-prefetch" href="https://static.wellsfargo.com/">
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>Responsible Disclosure Program – Report a Vulnerability | Wells Fargo</title>
+	
+	
+	
+	
+	
+        
+
+ 
+			
+		<meta name="description" content="Learn more about the Responsible Disclosure program and how to report a vulnerability."/>
+		
+	
+		<meta name="keywords" content="Responsible disclosure program, report vulnerability, report Wells Fargo vulnerability, security vulnerability"/>
+	
+	
+		<meta name="robots" content="index, follow"/>
+	
+	
+                                                                
+                                                                                
+                                                                                
+                                                                
+                                                                                                               <link rel="canonical" href="index.html" />
+                                                                                               
+                                                
+                                                         
+                                
+                
+
+        
+        
+	 
+
+
+
+
+
+
+	<link rel="alternate" href="index.html"  hreflang="en-us" />
+
+    
+
+
+
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+
+    <script type="text/javascript" nonce="29272ea0-d153-415e-afe5-a324622c0218">
+        var environment= "PRODUCTION"
+        var appd_key= "AD-AAB-ABJ-PZF"
+        var appd_js_path= "https://static.wellsfargo.com/assets/js/wfui/appdynamics"
+    </script>
+    <script src="../../../../static.wellsfargo.com/assets/js/wfui/appdynamics/appdEUMConfig.js" nonce="29272ea0-d153-415e-afe5-a324622c0218">
+    </script>
+
+<script type="text/javascript" nonce="29272ea0-d153-415e-afe5-a324622c0218">
+ var akamaiImageHostUrl= "https://www17.wellsfargomedia.com/"
+</script>
+
+	<link rel="stylesheet" href="../../../css/template/global.css" />
+	<link rel="stylesheet" href="../../../css/template/ui-lightness/jquery-ui.custom.css">
+	<link rel="preload" as="style" href="../../../css/template/print.css" media="print" />
+	<link rel="stylesheet" href="../../../css/template/print.css" media="print" />
+
+	
+		<link rel="stylesheet" href="../../../css/tools/feedback/feedback.css">
+	
+
+	
+		
+		
+		
+			
+				<link rel="icon" href="https://www17.wellsfargomedia.com/favicon.ico"/>
+					<link rel="apple-touch-icon" sizes="120x120" href="../../../../www17.wellsfargomedia.com/assets/images/icons/apple-touch-icon_120x120.png"/>
+                				<link rel="apple-touch-icon" sizes="180x180" href="../../../../www17.wellsfargomedia.com/assets/images/icons/apple-touch-icon_180x180.png"/>
+                				<link rel="icon" sizes="128x128" href="../../../../www17.wellsfargomedia.com/assets/images/icons/icon-normal_128x128.png"/>
+                				<link rel="icon" sizes="192x192" href="../../../../www17.wellsfargomedia.com/assets/images/icons/icon-hires_192x192.png"/>
+                				<link rel="icon" type="image/png" href="../../../../www17.wellsfargomedia.com/assets/images/icons/favicon_16x32x48.png">
+			
+		
+	
+
+	
+		
+	
+	<script nonce="29272ea0-d153-415e-afe5-a324622c0218">
+    	// if this line executes, then javascript is turned on and we'll therefore remove the no-js class from the HTML tag
+    	document.documentElement.className = document.documentElement.className.replace(/(^|\s)no-js(\s|$)/, '$1$2');
+  	</script>
+    
+
+	    <script type="text/javascript" nonce="29272ea0-d153-415e-afe5-a324622c0218"> var utag_data = { app_id:'WWW',mpuid:'11202410280617091988728867',unique_id:'20241028085110',page_type:'BROWSER',tealium_js_path:'https://c1.wfinterface.com/tracking/main/utag.js',device_type:'DESKTOP',mt_tag_path:'https://c1.wfinterface.com/rtto/',customer_type:'',zip_code:'',environment:'PRODUCTION',lang_pref:'ES'} </script> 
+
+	    <script type="text/javascript" nonce="29272ea0-d153-415e-afe5-a324622c0218"> var WFUI_CONTAINER = {"app_id":"WWW","environment":"PRODUCTION","top":{"sources":[]},"bottom":{"sources":[]}}; </script> 
+
+	
+</head>
+
+ 
+        
+ 
+<body>
+
+
+
+
+
+
+
+<div id="shell" class="t8" data-pid="222-195434-64" data-ptid="91-6232-128" data-lightbox-print="false">
+
+
+
+
+
+    
+	
+		<a href="#skip" class="hidden">Skip to content</a>
+	
+
+
+	
+		
+                                 
+          
+                    
+
+
+
+
+
+
+<header role="banner">
+   	<div id="masthead" class="html5header c1 nxg">	
+        <div class="wfLogoStripParent">
+              <div class="wfLogoStripChild">
+		    <div id="brand">
+                <a href="../../../index.html"><img alt="Wells Fargo Home Page" src="https://www17.wellsfargomedia.com/assets/images/css/template/homepage/homepage-horz-logo.svg" /></a>
+            </div>
+	    <div id="topSearch">
+				
+				
+				
+					<ul>		
+				
+				
+					<li role="presentation">
+		<a href="https://connect.secure.wellsfargo.com/auth/login/present?origin=cob&amp;LOB=CONS" class="signIn">
+			<img alt="Secure" src="https://www17.wellsfargomedia.com/assets/images/css/template/homepage/homepage-lock.svg" />
+			Sign On
+		</a>
+	</li>
+				
+				
+					<li role="presentation">
+        <a href="../../../help/index.html">Customer Service</a>
+      </li>
+				
+					<li role="presentation">
+        <a href="../../../locator/index.html">ATMs/Locations</a>
+      </li>
+				
+					<li role="presentation">
+		<a href="../../../spanish/index.html" id="langPrefToggle" class="spTogglePersonal" xml:lang="es" name="langPrefToggle" lang="es">Español</a>
+	</li>
+					
+			</ul>
+			
+			    				
+				
+				     <div id="nxgSearch">
+						<button id="nxgSearchButton">
+							<span class="nxgSearchText">Search</span>&nbsp;
+							<span class="nxgVisuallyHidden" id="nxgSearchDescription">Opens a dialog.</span>
+							<span class="nxgSearchIcon"></span>
+						</button>
+                     </div>
+				
+			
+		</div>
+        </div>
+     </div>
+	  
+			<div id="mainNav">
+				<nav aria-label="account type"> 
+					
+							  
+									<div class="html5nav" id="tabNav" >
+										<ul>
+											
+											   
+        
+						<li class="active">
+				<a id="tabNavPersonal" class="tabNavLink" href="../../../index.html" name="tabNavPersonal">
+					<span class="hidden">selected</span>
+					Personal
+				</a>
+			</li>
+					
+      
+											
+											   
+<li><a href="../../../investing-wealth/index.html" class="tabNavLink" id="tabInvestingWealth" name="tabInvestingWealth">Investing &amp; Wealth Management</a></li>
+
+											
+											   
+<li><a href="../../../biz/index.html" class="tabNavLink" id="tabNavSmallBusiness" name="tabNavSmallBusiness">Small Business</a></li>
+
+											
+											   
+<li><a href="../../../com/index.html" class="tabNavLink" id="tabNavCommercial" name="tabNavCommercial">Commercial Banking</a></li>
+
+											
+											   
+<li><a href="../../../cib/index.html" class="tabNavLink" id="tabNavCorporateBanking" name="tabNavCorporateBanking">Corporate &amp; Investment Banking</a></li>
+
+											
+										</ul>
+									</div>
+								
+					
+				    
+			    </nav>
+			</div>
+
+    </div>
+</header>
+          
+                                 
+          
+                    <br />
+<div class="c29content" data-content-id="c29content00">
+<p>Navegó a una página que no está disponible en español en este momento. Seleccione el enlace si desea ver otro contenido en español.</p>
+<a href="../../../spanish/index.html">Página principal</a></div>
+<div id="customc28" style="display:none;">
+<div id="customc28backdrop"> </div>
+<div class="c28mainContainer c28CustomContainer" role="dialog" aria-labelledby="c28topFocusCustom" xml:lang="es" lang="es"><span id="c28topFocusCustom" class="hidden">Comienzo de ventana emergente</span>
+<div class="c28topContainer"><a class="c28close" id="c28close" href="javascript:void(0)" style="display: inline;" name="c28close" xml:lang="en" lang="en"><img alt="Close" role="button" src="../../../../www17.wellsfargomedia.com/assets/images/global/btn-close-x.png" /></a></div>
+<h2>Esta página solo está disponible en inglés</h2>
+<p>Selecione Cancele para permanecer en esta página o Continúe para ver nuestra página principal en español.</p>
+<div class="balloonButtons balloonButtonsCustom"><a href="javascript:void(0)" id="balloon-cancel" class="customc28cancel balloon-cancel" name="balloon-cancel">Cancele</a> <a href="../../../es/index.html" class="c7 utilitybtn" id="popupContinue" name="popupContinue">Continúe</a></div>
+<span id="c28bottomFocusCustom" class="hidden">Fin de ventana emergente</span></div>
+</div>          
+                                 
+          
+
+
+	
+    
+    
+    <div class="c42">	
+    	 
+		<nav><div class="html5nav">
+                                                                        <ul class="c67" role="navigation"><li><a href="../../../index.html">Personal</a></li><li><a href="../../index.html">Privacy, Cookies, Security, and Legal</a></li><li><a href="../index.html">Security Center</a></li><li class="last">Responsible Disclosure Program</li></ul>
+                                                                  </div></nav>
+        
+
+        
+        
+        
+			<div id="title">
+				
+				
+					<h1 class="c11" id="skip" tabindex="-1">Responsible Disclosure Program</h1>
+					<div class="headerLocation">
+					
+					</div>
+					
+				
+			</div>
+        
+        
+
+
+        
+        
+
+ 
+ 
+ 
+        
+			<div class="sideUtility top">
+					<ul>
+						<li><a href="#" class="printLink"> 
+								 
+									
+								
+									Print
+								
+							
+						 </a></li>
+					</ul>
+
+			<div class="c52 hide" aria-hidden="true" aria-label="popup"></div>
+		</div>
+        
+
+ 
+         
+ 
+
+  
+  </div> 
+    
+    <div id="contentTop">
+	
+
+
+        
+    </div>
+	
+	<div class="cols2"  id="mainColumns">
+		<div class="mainContentCol">
+        	<div id="contentBody">
+                
+                
+        			 <p><strong>Note:</strong> This is a Responsible Disclosure Program. If you need Wells Fargo customer support, please visit <a href="../../../help/index.html">Customer Service</a>.  If you are reporting fraud, phishing emails, or text scams, please visit <a href="../report/index.html">How to Report Fraud</a>.</p>
+<p>Wells Fargo is proactively advancing our security to identify new threats and help ensure the safety of customer accounts and information.</p>
+<p>Because threats to our corporate environment and customer assets are ever present, we also value the important role the security community plays in helping us mitigate information security risk.</p>
+<p>If you have information about possible security vulnerabilities in any Wells Fargo product or service, please submit a report using these guidelines.</p>
+<h2>Guidelines</h2>
+<ul>
+<li>Email ResponsibleDisclosure@wellsfargo.com to receive instructions on submitting a report.</li>
+<li>Your report must meet all of <a href="../../../es/exit/e/index17f9.html?id=1195434222" class="c28aLink" data-cid="tcm:182-195436-16" data-ctid="tcm:223-3757-32">HackerOne’s Vulnerability Disclosure Guidelines</a>.</li>
+<li>When reporting vulnerabilities, consider (1) the attack scenario or exploitability, and (2) the security impact of the bug.</li>
+<li>Submit one vulnerability per report unless you need to chain vulnerabilities to provide impact.</li>
+<li>Provide details with reproducible steps in your report.</li>
+<li>Comply with applicable federal, state, local, and international laws in connection with your participation in this vulnerability disclosure program.</li>
+<li>We may modify the terms of this policy or terminate the policy at any time.</li>
+</ul>
+<p>By Submitting a Report:</p>
+<ul>
+<li>You agree that you are not located in or a resident of a country under United States sanctions, nor a person on, or working on behalf of a party identified on, any restricted party list maintained by the United States government.</li>
+<li>You consent to your information being stored and transferred to the United States and acknowledge you have read and accepted the terms of this policy and <a href="../../../es/exit/e/index17f9.html?id=1195434222" class="c28aLink" data-cid="tcm:182-195436-16" data-ctid="tcm:223-3757-32">HackerOne’s Vulnerability Disclosure Guidelines</a>.</li>
+<li>You agree not to disclose vulnerability details to anyone other than Wells Fargo without Wells Fargo’s written permission.</li>
+<li>You agree that any Wells Fargo information that you may encounter, view, acquire, or access, is owned by Wells Fargo or its customers, clients, or third party providers. You have no rights, title, or ownership in any such information.</li>
+<li>You agree that your research will be conducted for testing and research purposes only, and that you will not attempt to gain access to customer or user accounts or confidential information and will only interact with accounts you own.</li>
+<li>You understand that nothing in this agreement, including submission of a report, shall be deemed to constitute the grant to you of any license or other right to or in respect of any Wells Fargo or third-party product, service, patent, trademark, trade secret, or other intellectual property.</li>
+<li>You hereby grant Wells Fargo a perpetual, worldwide, exclusive, fully-paid-up license to sublicense, copy, distribute, display, perform, transmit, and publish the report.</li>
+</ul>
+<h2>Scope</h2>
+<p>Domains where Wells Fargo &amp; Company is listed as the Registrant Organization, Admin Organization, or Tech Organization are in scope. Domains registered to Wells Fargo but hosted by a third party are out of scope. Not sure what’s in scope? Send an email to support@hackerone.com.</p>
+<p>Vulnerabilities typically in scope include items from the <a href="../../../es/exit/e/index684d.html?id=2195434222" class="c28aLink" data-cid="tcm:182-195436-16" data-ctid="tcm:223-3757-32">OWASP Top 10</a> and vulnerabilities with a confirmed security impact.
+<br /></p>
+<p>We reserve the right to determine whether to accept a report. For example, we may not accept:</p>
+<ul>
+<li>A report on a vulnerability with little security impact or exploitability</li>
+<li>A vulnerability outside our control</li>
+<li>A vulnerability discoverable through automated scans that have not been verified manually</li>
+<li>A report of a vulnerability resulting from a violation of the program guidelines</li>
+</ul>
+<p>Certain vulnerabilities are considered out of scope for our Responsible Disclosure Program. These include:</p>
+<ul>
+<li>Clickjacking on pages with no sensitive actions</li>
+<li>Unauthenticated/logout/login CSRF</li>
+<li>Insecure Cookie Settings on non-sensitive cookies</li>
+<li>Bugs requiring inordinate amounts of user interaction or prior knowledge of user secrets such as session tokens or CSRF values</li>
+<li>Information regarding software versions or web server versions/banners where there is no evidence these versions are impacted by a security flaw</li>
+<li>Bugs affecting browsers or plugins that are not listed on our <a href="../../../help/online-banking/browser-supported/index.html" refplatform="newwindow">supported browsers</a> page</li>
+<li>Attacks requiring MITM or physical access to a user's device</li>
+<li>Previously known vulnerable libraries without a working Proof of Concept</li>
+<li>Comma Separated Values (CSV) injection without demonstrating a vulnerability</li>
+<li>Missing best practices in SSL/TLS configuration</li>
+<li>Common Automated Tooling including Acunetix, Nessus, and Qualys should be avoided; however, use of Burp Suite and other custom tools are allowed</li>
+<li>Any activity that could lead to the disruption of our service (DoS)</li>
+<li>Content spoofing and text injection issues without showing an attack vector or without being able to modify HTML/CSS</li>
+<li>Avoid privacy violations, destruction of data, and interruption or degradation of our services</li>
+<li>Social engineering (e.g. phishing, vishing, smishing) is prohibited</li>
+<li>Do not test the physical security of Wells Fargo property</li>
+</ul>
+<h2>Safe Harbor</h2>
+<p>Any activities conducted in a manner consistent with this policy will be considered authorized conduct and we will not initiate legal action against you. If legal action is initiated by a third party against you in connection with activities conducted under this policy, we will take steps to make it known that your actions were conducted in compliance with this policy.</p> 
+
+
+                
+			</div>
+			
+            <div id="contentBottom">
+                
+                
+					<div class="c20" role="complementary"><div class="c20body" data-numbered="false" data-cid="tcm:84-230124-16" data-ctid="tcm:91-1924-32">
+<p>QSR-11072025-6607075.1.1</p>
+</div><div class="c20body" data-numbered="false" data-cid="tcm:84-304788-16" data-ctid="tcm:91-1924-32">
+<p>LRC-0424</p>
+</div></div>
+                
+			</div>       
+        </div>
+		
+		<aside><div class="html5aside">
+			<div class="secondaryCol">
+				
+					<div id="serviceModule" class="c8"><div class="c8subsection" data-cid="tcm:84-317941-16" data-ctid="tcm:91-1889-32">
+     <h2>Related Articles</h2>
+    <ul class="c14">
+<li><a href="../index.html">Security Center</a></li>
+<li><a href="../report/phish/index.html">Five steps to avoid phishing scams</a></li>
+<li><a href="../bank-scams/index.html">Scams and Cyber Threats</a></li>
+<li><a href="../../../online-banking/wires/index.html">Wells Fargo Online Wires</a></li>
+<li><a href="../../../online-banking/alerts/index.html">Alerts</a></li>
+</ul>
+</div>
+
+</div><div id="feedbackSurvey" data-cid="tcm:84-6876-16" data-ctid="tcm:91-6227-32"><div id="feedbackSurveyForm"><div class="feedbackSurveyIntro"><p><a href="#" class="c13" data-cid="tcm:84-6876-16" data-ctid="tcm:91-6227-32" data-presentation="3" rel="noopener noreferrer" id="giveFeedbackSurveyLink" name="giveFeedbackSurveyLink">Give Us Feedback</a></p></div></div></div>
+				
+			</div>
+		</div></aside>
+	</div> 
+	
+	
+		
+ 	
+   
+     
+  
+
+
+
+<footer role="contentinfo">
+	<div class="html5footer c9" id="pageFooter">
+          
+            
+                <div class="c9content">
+    
+    
+    <nav role="navigation">
+            	<div class="html5nav">
+					<ul class="navList">						
+                        
+                        <li>
+					<a data-cid="tcm:84-8253-16" data-ctid="tcm:91-1866-32"   href="../../index.html">Privacy, Cookies, Security &amp; Legal</a>
+				</li>
+                        
+                        <li>
+                                       <a href="../../opt-out-notice/index.html">Do Not Sell or Share My Personal Information</a>
+                                </li>
+                        
+                        <li>
+					<a data-cid="tcm:84-8253-16" data-ctid="tcm:91-1866-32"   href="../../notice-of-data-collection/index.html">Notice of Data Collection</a>
+				</li>
+                        
+                        <li>
+					<a data-cid="tcm:84-8253-16" data-ctid="tcm:91-1866-32"   href="../../terms/index.html">General Terms of Use</a>
+				</li>
+                        
+                        <li>
+					<a data-cid="tcm:84-8253-16" data-ctid="tcm:91-1866-32"   href="../report/index.html">Report Fraud</a>
+				</li>
+                        
+                        <li>
+					<a data-cid="tcm:84-8253-16" data-ctid="tcm:91-1866-32"   href="../../../es/sitemap/index.html">Sitemap</a>
+				</li>
+                        
+                        <li>
+					<a data-cid="tcm:84-8253-16" data-ctid="tcm:91-1866-32"   href="../../../about/index.html">About Wells Fargo</a>
+				</li>
+                        
+                        <li>
+		<a data-cid="tcm:84-8253-16" data-ctid="tcm:91-1866-32"   href="../../../about/careers/index.html">Careers</a>
+	</li>
+                        
+                        <li>
+					<a data-cid="tcm:84-8253-16" data-ctid="tcm:91-1866-32"   href="../../../about/diversity/index.html">Diversity and Accessibility</a>
+				</li>
+                        
+                        <li>
+					<a href="../../../index.html">Home</a>
+				</li>
+                                               
+					</ul>
+				</div>
+			</nav>
+    
+
+    
+		<p>© 1999 - 2024 Wells Fargo. NMLSR ID 399801</p>
+	
+
+</div>            
+        
+
+        
+    </div>
+</footer>
+
+
+
+  
+</div>
+
+
+<img src="../../../assets/images/global/sd9e5.gif?log=1&amp;cb=1730130670621&amp;event=PageLoad&amp;pid=222-195434-64&amp;ptid=91-6232-128&amp;pageUrl=https%3A%2F%2Fwww.wellsfargo.com%2Fprivacy-security%2Ffraud%2Fresponsible-disclosure-program%2F&amp;clist=182-195436-16~223-3757-32|84-230124-16~91-1924-32|84-304788-16~91-1924-32|84-317941-16~91-1889-32|84-6876-16~91-6227-32" alt=""/>
+
+
+ 
+	
+	
+		
+	
+
+
+<script type="text/javascript" nonce="29272ea0-d153-415e-afe5-a324622c0218">
+	var tasInfo={"pageID":"/privacy-security/fraud/responsible-disclosure-program/","Url":"/tas","App_ID":"WWW",
+				"deviceType":"Desktop"};	
+</script>
+<script src="../../../js/vendor/jquery.min.js" nonce="29272ea0-d153-415e-afe5-a324622c0218"></script>
+<script src="../../../js/frameworks/jq/jquery-ui.js" nonce="29272ea0-d153-415e-afe5-a324622c0218"></script>
+<script src="../../../js/global/global.js" nonce="29272ea0-d153-415e-afe5-a324622c0218"></script>
+
+	
+		<script src="../../../js/tools/feedback/feedback.js" nonce="29272ea0-d153-415e-afe5-a324622c0218"></script>
+	
+
+
+
+
+
+
+
+
+    <script src="../../../../static.wellsfargo.com/assets/js/wfui/container/wfui-container-bottom.js" nonce="29272ea0-d153-415e-afe5-a324622c0218"></script>
+
+
+
+<script type="text/javascript"  src="../../../WY6Lti/f7p_h/0ySog/W75R/kES3ftmpQXGc3O/An5oVQE/bFsL/KykUJz4B"></script></body>
+<!-- Mirrored from www.wellsfargo.com/privacy-security/fraud/responsible-disclosure-program/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 28 Oct 2024 22:46:10 GMT -->
+</html>
